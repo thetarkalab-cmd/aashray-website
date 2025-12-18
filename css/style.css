@@ -344,4 +344,10 @@ max-height: 380px;
 .section.image-tall .two-column img {
   max-height: 460px;
 }
+/* Do not crop image on Contribute page */
+.contribute-page .two-column img {
+  max-height: none;
+  object-fit: contain;
+}
+
 
