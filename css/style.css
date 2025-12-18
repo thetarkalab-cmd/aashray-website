@@ -349,5 +349,20 @@ max-height: 380px;
   max-height: none;
   object-fit: contain;
 }
+/* ===== FORCE FULL IMAGE VISIBILITY ON CONTRIBUTE PAGE ===== */
+
+/* Remove any height constraints from the grid */
+.contribute-page .two-column {
+  align-items: flex-start;
+}
+
+/* Completely remove image limits */
+.contribute-page .two-column img {
+  max-height: none !important;
+  height: auto !important;
+  object-fit: contain !important;
+  display: block;
+}
+
 
 
