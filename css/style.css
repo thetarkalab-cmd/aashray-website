@@ -364,5 +364,12 @@ max-height: 380px;
   display: block;
 }
 
+/* Prevent cropping for specific sections */
+.no-crop .two-column img {
+  max-height: none;
+  height: auto;
+  object-fit: contain;
+}
+
 
 
