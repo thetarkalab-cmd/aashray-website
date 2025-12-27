@@ -386,6 +386,11 @@ max-height: 380px;
   object-fit: contain;
 }
 
+.centered-heading {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
 
 
 
