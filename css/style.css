@@ -382,9 +382,10 @@ max-height: 380px;
 }
 
 .no-crop .two-column img {
-  max-height: 300px;
+  max-height: 360px;
   object-fit: contain;
 }
+
 
 
 
